@@ -12,7 +12,7 @@
     </appender>
 
     <appender name="file" class="org.apache.log4j.RollingFileAppender">
-        <param name="File" value="logs/myapp.log" />
+        <param name="File" value="logs/LumaApplication.log" />
         <param name="MaxFileSize" value="10MB" />
         <param name="MaxBackupIndex" value="10" />
         <layout class="org.apache.log4j.PatternLayout">

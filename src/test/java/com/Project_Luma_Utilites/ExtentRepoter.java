@@ -21,12 +21,12 @@ public class ExtentRepoter extends BaseClass{
 		html.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 		extentReport.attachReporter(html);
 		Properties congfigPro=new Properties();
-		File configPropFile=new File (System.getProperty("user.dir")+".//src/test/java/com/Ninja/Config/config.properties");
-		
-		
+		File configPropFile=new File (System.getProperty("user.dir")+".//src/test/java/com/Luma/Config/config.properties");
+
+
 		try {
 			FileInputStream fis =new FileInputStream(configPropFile);
-			
+
 			congfigPro.load(fis);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -38,8 +38,8 @@ public class ExtentRepoter extends BaseClass{
 		//extentReport.setSystemInfo("Operating System",System.getProperty("os.name"));
 		extentReport.setSystemInfo("Username",System.getProperty("user.name"));
 		extentReport.setSystemInfo("Java Version",System.getProperty("java.version"));
-		
+
 		return extentReport;
-				
+
 	}
 }

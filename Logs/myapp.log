@@ -103,3 +103,23 @@
 2023-04-10 07:32:26 INFO  Log:22 - confirmpassword Passed
 2023-04-10 07:32:26 INFO  Log:22 - subscribed Passed
 2023-04-10 07:32:30 INFO  Log:22 - continueButton Passed
+2023-04-10 07:47:24 INFO  Log:22 - navigated to myAccount
+2023-04-10 07:47:25 INFO  Log:22 - navigated to myAccount
+2023-04-10 07:47:25 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-04-10 07:47:26 INFO  Log:22 - First Name Passed
+2023-04-10 07:47:26 INFO  Log:22 - Last Name Passed
+2023-04-10 07:47:26 INFO  Log:22 - Email Passed
+2023-04-10 07:47:26 INFO  Log:22 - Password Passed
+2023-04-10 07:47:26 INFO  Log:22 - confirmpassword Passed
+2023-04-10 07:47:26 INFO  Log:22 - subscribed Passed
+2023-04-10 07:47:31 INFO  Log:22 - continueButton Passed
+2023-04-10 07:48:51 INFO  Log:22 - navigated to myAccount
+2023-04-10 07:48:52 INFO  Log:22 - navigated to myAccount
+2023-04-10 07:48:52 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-04-10 07:48:52 INFO  Log:22 - First Name Passed
+2023-04-10 07:48:52 INFO  Log:22 - Last Name Passed
+2023-04-10 07:48:53 INFO  Log:22 - Email Passed
+2023-04-10 07:48:53 INFO  Log:22 - Password Passed
+2023-04-10 07:48:53 INFO  Log:22 - confirmpassword Passed
+2023-04-10 07:48:53 INFO  Log:22 - subscribed Passed
+2023-04-10 07:48:57 INFO  Log:22 - continueButton Passed
