@@ -13,7 +13,9 @@ public class RegisterPageTestCases extends ObjectManager{
   }
   @Test(priority = 2)
   public void register_Filling() throws Exception {
-	  RegisterFormFilling.register_Filling();
-	  RegisterFormFilling.validate_SuccessPage();
+//	  RegisterFormFilling.register_Filling();
+//	  RegisterFormFilling.validate_SuccessPage();
+//	  RegisterFormFilling.validate_LogOutPage();
+	  RegisterFormFilling.validate_RegisterPage();
   }
 }

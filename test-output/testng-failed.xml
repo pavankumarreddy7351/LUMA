@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Luma.TestCases.RegisterTestCases">
+      <class name="com.Luma.TestCases.RegisterPageTestCases">
         <methods>
+          <include name="navigate_To_Register"/>
+          <include name="register_Filling"/>
           <include name="closeApplication"/>
           <include name="launchApplication"/>
-          <include name="register_Filling"/>
         </methods>
-      </class> <!-- com.Luma.TestCases.RegisterTestCases -->
+      </class> <!-- com.Luma.TestCases.RegisterPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
